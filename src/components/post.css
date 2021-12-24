@@ -1,0 +1,19 @@
+.post{
+    height: 100%;
+    /* width: 100%; */
+    background-color: teal;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
