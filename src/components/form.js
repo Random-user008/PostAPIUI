@@ -19,7 +19,7 @@ class form extends React.Component  {
       handleSubmit(event) {
         alert('Refresh to see the new Post!!');
         event.preventDefault();
-        axios.post("http://localhost:3001/newpost",this.state)
+        axios.post("https://optimistic-raman-85f69e.netlify.app/newpost",this.state)
         .then((res)=>{
             console.log(this.state + " Sent!!")
         })
