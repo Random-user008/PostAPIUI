@@ -14,7 +14,7 @@ const Post = (props) => {
 
     useEffect(() => {
         console.log("rendering");
-        axios.get('https://optimistic-raman-85f69e.netlify.app/posts')
+        axios.get('http://localhost:3001/posts')
             .then((resposne) => {
                 setData(resposne.data);
                 console.log(resposne.data)
